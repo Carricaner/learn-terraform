@@ -4,10 +4,11 @@
 terraform {
 
   cloud {
-    organization = "organization-name"
+    organization = "myoptionsv2"
 
     workspaces {
       name = "learn-terraform"
+      project = "my aws practice project"
     }
   }
 
