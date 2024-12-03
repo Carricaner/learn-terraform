@@ -3,14 +3,14 @@
 
 terraform {
 
-  cloud {
-    organization = "myoptionsv2"
+  # cloud {
+  #   organization = "myoptionsv2"
 
-    workspaces {
-      name = "learn-terraform"
-      project = "my aws practice project"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform"
+  #     project = "my aws practice project"
+  #   }
+  # }
 
   required_providers {
     aws = {
